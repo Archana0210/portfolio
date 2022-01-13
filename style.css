@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lateef&family=Libre+Baskerville&family=Orelega+One&display=swap"');
 
 
 
@@ -10,7 +10,7 @@
 }
 html{
     font-size: 10px;
-    font-family:'Montserrat', sans-serif ;
+    font-family:'Libre Baskerville', sans-serif ;
 }
 a{
     text-decoration: none;
@@ -107,10 +107,64 @@ a{
 #hero .cta:hover{
     color: white;
     background-color: rgb(228, 15, 68);
-    /* SKILL */
-.service-bottom{
-    display: flex ;
+    
+
 }
+
+    
+.about{
+    font-size: 5rem;
+    text-align: center;
+    padding: 6rem 0 2rem 0;
+    border: 1rem;
+}
+.bgimg{
+    background-image: url(/img/background.jpg);
+    width: 920px;
+
+}
+.btn{
+    position: relative;
+    font-family: sans-serif;
+    left: 90%;
+    transform: translate(-50%, -300%);
+    color:transparent
+    background-color:black;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 2rem;
+   
+    
+
+
+}
+.resume{
+    padding: 2rem;
+    
+}
+.btn:hover{
+    color:rgb(143, 139, 184);
+}
+.Skills{
+    font-size: 5rem;
+    text-align: center;
+    padding: 6rem 0 2rem 0;
+    border: 1rem;
+}
+.sk{
+    display: flex;
+    text-align:center;
+    padding: 2rem 25rem;
+    justify-content:space-between;
+    font-size: 1.5rem;
+
+}
+.imgg{
+    display: flex;
+    padding: .5rem;
+    margin: 2rem;
+    justify-content: space-between;
+    
 
     
 }
